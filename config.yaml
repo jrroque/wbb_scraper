@@ -1,0 +1,1121 @@
+University of Alabama:
+  url: "https://rolltide.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+University of Arkansas:
+  url: "https://arkansasrazorbacks.com/sport/w-baskbl/roster/#coaches"
+  handler: "parse_uar_staff"
+University of Florida:
+  url: "https://floridagators.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(2) a span"
+      title: "td:nth-child(3) span"
+      phone: "td:nth-child(4)"
+      email: "td:nth-child(5) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(2) a span"
+      title: "td:nth-child(3) span"
+      phone: "td:nth-child(4)"
+      email: "td:nth-child(5) a[href^='mailto:']"
+University of Georgia:
+  url: "https://georgiadogs.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(2) a span"
+      title: "td:nth-child(3) span"
+      phone: "td:nth-child(4)"
+      twitter: "td:nth-child(5) a"
+      instagram: "td:nth-child(6) a"
+University of Kentucky:
+  url: "https://ukathletics.com/staff-directory/"
+  handler: "parse_kentucky_staff"
+Louisiana State University:
+    url: "https://lsusports.net/sports/wbball/roster/"
+    handler: "parse_lsu_staff"
+University of Mississippi:
+  url: "https://olemisssports.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a"
+Mississippi State University:
+  url: "https://hailstate.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(2) a span"
+      title: "td:nth-child(3) span"
+      phone: "td:nth-child(4)"
+      email: "td:nth-child(5) a"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(2) a span"
+      title: "td:nth-child(3) span"
+      phone: "td:nth-child(4)"
+      email: "td:nth-child(5) a"
+University of Missouri:
+  url: "https://mutigers.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      twitter: "td:nth-child(3) span a"
+      email: "td:nth-child(4) a"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      twitter: "td:nth-child(3) span a"
+      email: "td:nth-child(4) a"
+University of South Carolina:
+  url: "https://gamecocksonline.com/staff-directory/womens-basketball-803-777-0371/"
+  COACHES_TABLE:
+    table_container_selector: "table.staff-directory_table"
+    wrapper_index: 0
+    row_selector: "tr.staff-directory_table_row"
+    field_selectors:
+      name: "td.staff-directory_table_row_name a div.name"
+      title: "td.staff-directory_table_row_title p"
+      email:
+        selector: "td.staff-directory_table_row_email a"
+        attribute: "href"
+University of Tennessee:
+  url: "https://utsports.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)" 
+      email: "td:nth-child(4) a"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a"
+Texas A&M University:
+  url: "https://12thman.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(2) a span"
+      title: "td:nth-child(3) span"
+      phone: "td:nth-child(4)"
+      email: "td:nth-child(5) a"
+      twitter: "td:nth-child(6) a"
+      instagram: "td:nth-child(7) a"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(2) a span"
+      title: "td:nth-child(3) span"
+      phone: "td:nth-child(4)"
+      email: "td:nth-child(5) a"
+      twitter: "td:nth-child(6) a"
+      instagram: "td:nth-child(7) a"
+Vanderbilt University:
+  url: "https://vucommodores.com/sports/wbball/roster/"
+  handler: "parse_vu_staff"
+University of Southern California:
+  url: "https://usctrojans.com/sports/womens-basketball/coaches" 
+  COACHES_TABLE:
+    table_container_selector: "table.w-full:nth-of-type(1)"
+    wrapper_index: 0
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "table.w-full:nth-of-type(1)"
+    wrapper_index: 1
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+University of California Los Angeles:
+  url: "https://uclabruins.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      alma_mater: "td:nth-child(4) span"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      alma_mater: "td:nth-child(4) span"
+Ohio State University:
+  url: "https://ohiostatebuckeyes.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+University of Maryland:
+  url: "https://umterps.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 0
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      title: "td:nth-child(1)"
+      name: "th:nth-child(3) a"
+      phone: "td:nth-child(4) span.hide-on-medium-down"
+      email: "td:nth-child(5) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 1
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      title: "td:nth-child(1)"
+      name: "th:nth-child(3) a"
+      phone: "td:nth-child(4) span.hide-on-medium-down"
+      email: "td:nth-child(5) a[href^='mailto:']"
+Michigan State University:
+  url: "https://msuspartans.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+University of Illinois:
+  url: "https://fightingillini.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 0
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      name: "th:nth-child(1) a"
+      title: "td:nth-child(2)"
+      email_prefix: "td:nth-child(3)"
+      phone: "td:nth-child(4) span.hide-on-medium-down"
+  SUPPORT_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 1
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      name: "th:nth-child(1) a"
+      title: "td:nth-child(2)"
+      email_prefix: "td:nth-child(3)"
+      phone: "td:nth-child(4) span.hide-on-medium-down"
+University of Michigan:
+  url: "https://mgoblue.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+University of Iowa:
+  url: "https://hawkeyesports.com/sports/wbball/roster?tab=coaches"
+  handler: "parse_uoi_staff"
+University of Nebraska:
+  url: "https://hawkeyesports.com/sports/wbball/roster?tab=coaches"
+  handler: "parse_uon_staff"
+University of Oregon:
+  url: "https://goducks.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+Indiana University:
+  url: "https://iuhoosiers.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+University of Washington:
+  url: "https://gohuskies.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+University of Minnesota:
+  url: "https://gophersports.com/sports/womens-basketball/coaches"
+  handler: "parse_uom_staff"
+University of Wisconsin:
+  url: "https://uwbadgers.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+Rutgers University:
+  url: "https://scarletknights.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 0
+    table_selector_inside_wrapper: null
+    row_selector: "tr.sidearm-coaches-coach"
+    field_selectors:
+      name: "th:nth-child(1) a"
+      title: "td:nth-child(2)"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4) span"
+  SUPPORT_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 1
+    table_selector_inside_wrapper: null
+    row_selector: "tr.sidearm-coaches-coach"
+    field_selectors:
+      name: "th:nth-child(1) a"
+      title: "td:nth-child(2)"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4) span"
+Purdue University:
+  url: "https://purduesports.com/sports/womens-basketball/roster"
+  handler: "parse_pu_staff"
+Northwestern University:
+  url: "https://nusports.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+Penn State University:
+  url: "https://gopsusports.com/sports/womens-basketball/roster"
+  handler: "parse_psu_staff"
+University of Notre Dame:
+  url: "https://fightingirish.com/sports/wbball/roster/"
+  handler: "parse_nd_staff"
+North Carolina State University:
+  url: "https://gopack.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+Duke University:
+  url: "https://goduke.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+University of North Carolina at Chapel Hill:
+  url: "https://goheels.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+Florida State University:
+  url: "https://seminoles.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+      custom_field_1: "td:nth-child(5) span"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+      custom_field_1: "td:nth-child(5) span"
+Louisville University:
+  url: "https://gocards.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+University of California Berkeley:
+  url: "https://calbears.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "tbody"
+    row_selector: "tr.sidearm-coaches-coach"
+    field_selectors:
+      title: "td:nth-child(1)"
+      name: "th:nth-child(2) a.text-no-wrap"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      custom_field_1: "td:nth-child(4) a"
+  SUPPORT_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 1 
+    table_selector_inside_wrapper: "tbody"
+    row_selector: "tr.sidearm-coaches-coach"
+    field_selectors:
+      title: "td:nth-child(1)"
+      name: "th:nth-child(2) a.text-no-wrap"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      custom_field_1: "td:nth-child(4) a"
+Georgia Institute of Technology:
+  url: "https://ramblinwreck.com/sports/w-baskbl/roster/"
+  handler: "parse_gt_staff"
+Virginia Tech:
+  url: "https://hokiesports.com/sports/womens-basketball/roster"
+  handler: "parse_vt_staff"
+University of Virginia:
+  url: "https://virginiasports.com/sports/wbball/roster/"
+  handler: "parse_uvi_staff"
+Stanford University:
+  url: "https://gostanford.com/sports/womens-basketball/roster"
+  handler: "parse_su_staff"
+Boston College:
+  url: "https://bceagles.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+Clemson University:
+  url: "https://clemsontigers.com/sports/w-basketball/roster/"
+  handler: "parse_cu_staff"
+Syracuse University:
+  url: "https://cuse.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+Wake Forest University:
+  url: "https://godeacs.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+University of Arizona:
+  url: "https://arizonawildcats.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "tbody"
+    row_selector: "tr.sidearm-coaches-coach"
+    field_selectors:
+      image: "td:nth-child(1) img"
+      name: "th:nth-child(2) a.text-no-wrap"
+      title: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      phone: "td:nth-child(5) a[href^='tel:']"
+      custom_field_1: "td:nth-child(6) a"
+Arizona State University:
+  url: "https://thesundevils.com/sports/womens-basketball/roster#coaches"
+  handler: "parse_asu_staff"
+Baylor University:
+  url: "https://baylorbears.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      custom_field_1: "td:nth-child(5) span"
+Brigham Young University:
+  url: "https://byucougars.com/sports/womens-basketball/roster#coaches"
+  handler: "parse_byu_staff"
+University of Colorado Boulder:
+  url: "https://cubuffs.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+University of Cincinnati:
+  url: "https://gobearcats.com/sports/womens-basketball/roster#coaches"
+  handler: "parse_uoc_staff"
+University of Houston:
+  url: "https://uhcougars.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+Iowa State University:
+  url: "https://cyclones.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(2) a span"
+      title: "td:nth-child(3) span"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      phone: "td:nth-child(5)"
+      twitter: "td:nth-child(6) a"
+University of Kansas:
+  url: "https://kuathletics.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+Kansas State University:
+  url: "https://www.kstatesports.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email_prefix: "td:nth-child(3) span"
+      phone: "td:nth-child(4)"
+      twitter: "td:nth-child(5) a"
+    post_processing:
+      email: "{{ field.email_prefix }}@kstatesports.com"
+Oklahoma State University:
+  url: "https://okstate.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+Texas Christian University:
+  url: "https://gofrogs.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+University of Texas at Austin:
+  url: "https://texaslonghorns.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+University of Utah:
+  url: "https://utahutes.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+West Virginia University:
+  url: "https://wvusports.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      twitter: "td:nth-child(5) a"
+      instagram: "td:nth-child(6) a"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      twitter: "td:nth-child(5) a"
+      instagram: "td:nth-child(6) a"
+University of Connecticut:
+  url: "https://uconnhuskies.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+Creighton University:
+  url: "https://gocreighton.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+      twitter: "td:nth-child(5) a"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+      twitter: "td:nth-child(5) a"
+Seton Hall University:
+  url: "https://shupirates.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+      custom_field_5: "td:nth-child(5) span"
+Marquette University:
+  url: "https://gomarquette.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      custom_field_5: "td:nth-child(5) span"
+      custom_field_6: "td:nth-child(6) span"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      custom_field_5: "td:nth-child(5) span"
+      custom_field_6: "td:nth-child(6) span"
+Villanova University:
+  url: "https://villanova.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 0
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      name: "th a"
+      title: "td:nth-child(2)"
+      phone: "td:nth-child(3) span.text-no-wrap"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 1
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      name: "th a"
+      title: "td:nth-child(2)"
+      phone: "td:nth-child(3) span.text-no-wrap"
+      email: "td:nth-child(4) a[href^='mailto:']"
+DePaul University:
+  url: "https://depaulbluedemons.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      custom_field_5: "td:nth-child(5) span"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+      custom_field_5: "td:nth-child(5) span"
+Providence College:
+  url: "https://friars.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+St. John’s University:
+  url: "https://redstormsports.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      phone: "td:nth-child(3)"
+      email: "td:nth-child(4) a[href^='mailto:']"
+Georgetown University:
+  url: "https://guhoyas.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 0
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      name: "th[scope='row'] a"
+      title: "td:nth-child(2)"
+      phone: "td:nth-child(3) span.hide-on-medium-down"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 1
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      name: "th[scope='row'] a"
+      title: "td:nth-child(2)"
+      phone: "td:nth-child(3) span.hide-on-medium-down"
+      email: "td:nth-child(4) a[href^='mailto:']"
+Butler University:
+  url: "https://butlersports.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 0
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      name: "th[scope='row'] a"
+      title: "td:nth-child(2)"
+      phone: "td:nth-child(3) span.hide-on-medium-down"
+      email: "td:nth-child(4) a[href^='mailto:']"
+  SUPPORT_TABLE:
+    table_container_selector: "table.sidearm-table"
+    wrapper_index: 1
+    table_selector_inside_wrapper: ""
+    row_selector: "tbody tr"
+    field_selectors:
+      name: "th[scope='row'] a"
+      title: "td:nth-child(2)"
+      phone: "td:nth-child(3) span.hide-on-medium-down"
+      email: "td:nth-child(4) a[href^='mailto:']"
+Xavier University:
+  url: "https://goxavier.com/sports/womens-basketball/coaches"
+  COACHES_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 0
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
+  SUPPORT_TABLE:
+    table_container_selector: "div.s-table__wrapper"
+    wrapper_index: 1
+    table_selector_inside_wrapper: "table.w-full"
+    row_selector: "tr.s-table-body__row"
+    field_selectors:
+      name: "td:nth-child(1) a span"
+      title: "td:nth-child(2) span"
+      email: "td:nth-child(3) a[href^='mailto:']"
+      phone: "td:nth-child(4)"
