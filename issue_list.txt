@@ -1,0 +1,110 @@
+Issue List
+
+university of Arkansas
+	- no number or email
+	- need custom handler
+
+university of florida
+	- number only gives extension, need to go to full site for official office numbers
+university of Georgia
+	- no email
+	- no contact info for head coach, but yes for recruiting coordinator
+
+University of Kentucky
+	- need custom handler, but has all info
+
+Louisiana State University
+	- need custom handler, but has all info
+
+University of Mississippi
+	- head coach has no email
+	- associate head coach has all details
+
+Mississippi State University
+	- head coach has no details
+	- using associate head coach, but only has email
+
+University of Missouri
+	- no contact info, maybe look at support staff
+
+University of South Carolina
+	- need to clean text to just have phone number
+
+University of Tennessee
+	- no number
+
+Texas A&M University
+	- no number
+
+Vanderbilt University
+	- need custom handler, has all info
+-----------------------------------------------------------------
+university of california los angeles
+	- no numbers
+
+university of Illinois
+	- need to append @illinois.edu, only prefixes in page
+
+university of Michigan
+	- almost no info except for director of operations
+
+university of iowa
+	- has numbers, need custom handler
+
+university of nebraska
+	- has all info, need custom handler
+
+university of Minnesota
+	- most have info except head coach, need custom handler
+
+purdue university
+	- some info, need custom handler, similar site design as iowa
+
+penn state
+	- need custom handler, similar to iowa also
+----------------------------------------------------
+notre dame
+	- custom handler, also similar to iowa
+duke
+	- no numbers
+uncch
+	- no numbers for coaching staff
+uc Berkeley 
+	- numbers on individual people pages, need custom handler
+Georgia tech
+	- similar to iowa, need custom handler
+virginia tech
+	- similar to iowa, need custom handler
+university of virginia
+	- has some info, need custom handler
+Stanford university
+	- has some info, need custom handler
+Clemson university
+	- no contact info anywhere it looks like
+Syracuse university
+	- no numbers except office coordinator has an extension
+university of Miami
+	- has numbers, need custom handler
+---------------------------------------------------------
+Arizona wildcats
+	- wrong site, should be https://arizonawildcats.com/sports/womens-basketball/coaches
+	- sparse contact info
+Arizona State Sun Devils
+	- some emails, need custom handler
+Baylor
+	- phone numbers are extensions
+BYU
+	- no contact info other than socials
+Cincinnati bearcats
+	- numbers, need custom handler
+cougars
+	- no numbers
+Kansas jayhawks
+	- email is just prefixes
+---------------------------------------------------------
+st johns university
+	- extensions for phone
+
+
+
+	
